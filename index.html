@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Karthickesavan — Full Stack Developer, QA professional and builder.">
+  <title>Karthickesavan — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" aria-hidden="true">
+    <div class="loader-logo">K<span>.</span></div>
+    <div class="loader-line"><i></i></div>
+    <small>INITIALIZING PORTFOLIO</small>
+  </div>
+
+  <div class="noise"></div>
+  <div class="cursor-light"></div>
+  <div class="scroll-line"><span></span></div>
+
+  <header class="nav">
+    <a class="brand" href="#home" aria-label="Karthickesavan home">
+      <span class="brand-mark">K</span>
+      <span>
+        <strong>KARTHICKESAVAN</strong>
+        <small>BUILD • LEARN • GROW</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="talk" href="#contact">Let's Talk <span>↗</span></a>
+    <button class="menu" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-panel" aria-hidden="true">
+    <a href="#home">01 — Home</a>
+    <a href="#about">02 — About</a>
+    <a href="#projects">03 — Projects</a>
+    <a href="#skills">04 — Skills</a>
+    <a href="#experience">05 — Experience</a>
+    <a href="#contact">06 — Contact</a>
+  </div>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span></span> DEVELOPER × CREATOR × PROBLEM SOLVER</div>
+        <p class="overline">FULL STACK DEVELOPMENT <b>+</b> QA <b>+</b> HR</p>
+        <h1>I build <em>digital products</em><br>that create real impact.</h1>
+        <p class="hero-description">
+          I'm <strong>Karthickesavan</strong> — a BCA graduate moving deeper into full-stack development.
+          I combine frontend craft, quality thinking and people experience to turn ideas into useful web experiences.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="#projects">View My Projects <span>→</span></a>
+          <a class="btn secondary" href="#contact">Let's Connect <span>↗</span></a>
+        </div>
+
+        <div class="stats">
+          <div><strong>6+</strong><span>Projects</span></div>
+          <div><strong>3+</strong><span>Years Learning</span></div>
+          <div><strong>100K+</strong><span>LinkedIn Impressions</span></div>
+          <div><strong>∞</strong><span>Ideas to Build</span></div>
+        </div>
+
+        <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+      </div>
+
+      <div class="hero-visual reveal delay">
+        <div class="avatar-stage" id="avatarStage">
+          <div class="avatar-grid"></div>
+          <div class="avatar-glow"></div>
+          <canvas id="avatarCanvas" aria-label="Interactive 3D developer avatar"></canvas>
+          <div class="avatar-status"><span></span> AVATAR ONLINE · HUMAN MOTION</div>
+          <div class="avatar-hud hud-left"><small>ROLE</small><b>FULL STACK<br>DEVELOPER</b></div>
+          <div class="avatar-hud hud-bottom"><small>LIVE SYSTEM</small><b>BUILD / TEST / SHIP</b></div>
+        </div>
+
+        <div class="side-card project-status">
+          <div class="card-label">CURRENTLY BUILDING</div>
+          <div class="mini-project"><span class="icon orange">K</span><div><b>Kareerz</b><small>Career Guidance Platform</small></div><span>↗</span></div>
+          <div class="mini-project"><span class="icon cyan">K</span><div><b>Klearningz</b><small>Learning Resources</small></div><span>↗</span></div>
+          <div class="mini-project"><span class="icon mint">G</span><div><b>Greenden</b><small>Web Product</small></div><span>↗</span></div>
+        </div>
+
+        <div class="quote-card">“Same person.<br><em>Bigger vision.</em>”</div>
+      </div>div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-top"><span>02</span><b>ABOUT ME</b><i></i><small>THE PERSON BEHIND THE CODE</small></div>
+      <div class="about-grid">
+        <div class="section-heading reveal">
+          <p>MY APPROACH</p>
+          <h2>Technology<br>with a <em>wider lens.</em></h2>
+        </div>
+        <div class="about-copy reveal delay">
+          <p class="lead">Good software is not only about writing code. It is about understanding the problem, designing the experience and making the result reliable.</p>
+          <p>I studied <strong>Bachelor of Computer Applications</strong> at Prince Shri Venkateshwara Arts and Science College and have worked across Quality Assurance and Human Resources.</p>
+          <p>Now I'm sharpening my full-stack skills through Error Makes Clever Institutions — building real projects across frontend, backend, databases and deployment.</p>
+          <div class="about-points">
+            <div><b>01</b><strong>BUILD</strong><span>Interfaces → applications</span></div>
+            <div><b>02</b><strong>TEST</strong><span>Quality → reliability</span></div>
+            <div><b>03</b><strong>UNDERSTAND</strong><span>People → better products</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="section-top"><span>03</span><b>PROJECTS</b><i></i><small>SELECTED BUILDS</small></div>
+      <div class="section-intro reveal">
+        <div><p>WORK THAT EXISTS</p><h2>Ideas turned<br>into <em>interfaces.</em></h2></div>
+        <p>From career platforms to learning products and frontend experiments, these projects show the progression from learning fundamentals to building complete experiences.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured reveal">
+          <div class="project-number">01</div>
+          <div class="project-type">PRODUCT / LIVE</div>
+          <h3>Kareerz</h3>
+          <p>Career guidance platform for practical learning, resume building, interview preparation and career development.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>PRODUCT</span></div>
+          <a href="https://www.kareerz.co.in/" target="_blank" rel="noopener">VIEW PROJECT <span>↗</span></a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">02</div>
+          <div class="project-type">LEARNING / LIVE</div>
+          <h3>Klearningz</h3>
+          <p>A learning-focused web platform built as part of the Kareerz ecosystem.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>UI</span></div>
+          <a href="https://klearningz.kareerz.co.in/" target="_blank" rel="noopener">VIEW PROJECT <span>↗</span></a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">03</div>
+          <div class="project-type">FRONTEND / REPO</div>
+          <h3>Portfolio</h3>
+          <p>A responsive portfolio project built to practice structure, navigation and visual systems.</p>
+          <div class="tags"><span>HTML5</span><span>CSS3</span><span>LAYOUT</span></div>
+          <a href="https://github.com/karthickesavan/portfolio-simple-website" target="_blank" rel="noopener">VIEW REPO <span>↗</span></a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">04</div>
+          <div class="project-type">CLONE / REPO</div>
+          <h3>Udemy Clone</h3>
+          <p>Course-platform recreation focused on layout, navigation and content hierarchy.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>UI</span></div>
+          <a href="https://github.com/karthickesavan/udemy-clone-website" target="_blank" rel="noopener">VIEW REPO <span>↗</span></a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">05</div>
+          <div class="project-type">TRAVEL UI / REPO</div>
+          <h3>Tripadvisor Clone</h3>
+          <p>Travel website recreation focused on responsive layouts, cards and visual hierarchy.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>RESPONSIVE</span></div>
+          <a href="https://github.com/karthickesavan/tripadvisor-clone" target="_blank" rel="noopener">VIEW REPO <span>↗</span></a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-number">06</div>
+          <div class="project-type">WEB UI / REPO</div>
+          <h3>Greenden</h3>
+          <p>Multi-page plant and lifestyle storefront with home, product and contact experiences.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span></div>
+          <a href="https://github.com/karthickesavan/greenden" target="_blank" rel="noopener">VIEW REPO <span>↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="section-top"><span>04</span><b>SKILLS</b><i></i><small>THE TOOLKIT</small></div>
+      <div class="skills-layout">
+        <div class="section-heading reveal"><p>TECH / TOOLS</p><h2>Learning the<br><em>full stack.</em></h2></div>
+        <div class="skill-list reveal delay">
+          <div><span>01</span><strong>HTML / CSS</strong><small>STRUCTURE + VISUAL SYSTEMS</small></div>
+          <div><span>02</span><strong>JavaScript</strong><small>LOGIC + INTERACTION</small></div>
+          <div><span>03</span><strong>React</strong><small>COMPONENT THINKING</small></div>
+          <div><span>04</span><strong>Node.js</strong><small>BACKEND FOUNDATIONS</small></div>
+          <div><span>05</span><strong>SQL</strong><small>DATA + QUERIES</small></div>
+          <div><span>06</span><strong>Git / GitHub</strong><small>VERSION CONTROL</small></div>
+          <div><span>07</span><strong>Jira / Postman</strong><small>QA + API TESTING</small></div>
+          <div><span>08</span><strong>Figma / Canva</strong><small>DESIGN + CONTENT</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience">
+      <div class="section-top"><span>05</span><b>EXPERIENCE</b><i></i><small>THE PATH</small></div>
+      <div class="experience-head reveal"><p>DIFFERENT ROLES</p><h2>One evolving<br><em>direction.</em></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><span>01</span><div><small>EDUCATION</small><h3>BCA</h3><p>Prince Shri Venkateshwara Arts and Science College</p></div></article>
+        <article class="timeline-item reveal"><span>02</span><div><small>QUALITY</small><h3>QA / Testing</h3><p>Manual testing, defect identification, Jira and API testing with Postman.</p></div></article>
+        <article class="timeline-item reveal"><span>03</span><div><small>PEOPLE</small><h3>HR / Recruitment</h3><p>Sourcing, screening, interview coordination, scheduling and communication.</p></div></article>
+        <article class="timeline-item current reveal"><span>04</span><div><small>NOW</small><h3>Full Stack Development</h3><p>Building modern web applications and moving from frontend foundations toward complete products.</p></div></article>
+      </div>
+    </section>
+
+    <section class="cta-band">
+      <div><span>THE NEXT BUILD</span><h2>Have an idea<br>worth <em>shipping?</em></h2></div>
+      <a class="btn primary" href="#contact">Let's build it <span>↗</span></a>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-top"><span>06</span><b>CONTACT</b><i></i><small>LET'S CONNECT</small></div>
+      <div class="contact-grid">
+        <div class="section-heading reveal"><p>OPEN TO OPPORTUNITIES</p><h2>Let's make<br>something <em>useful.</em></h2></div>
+        <div class="contact-links reveal delay">
+          <a href="mailto:karthickesavandt@gmail.com"><small>EMAIL</small><strong>karthickesavandt@gmail.com</strong><span>↗</span></a>
+          <a href="tel:+918825942551"><small>PHONE</small><strong>+91 88259 42551</strong><span>↗</span></a>
+          <a href="https://www.linkedin.com/in/karthickesavan/" target="_blank" rel="noopener"><small>LINKEDIN</small><strong>linkedin.com/in/karthickesavan</strong><span>↗</span></a>
+          <a href="https://github.com/karthickesavan" target="_blank" rel="noopener"><small>GITHUB</small><strong>github.com/karthickesavan</strong><span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 KARTHICKESAVAN</span>
+    <span>FULL STACK DEVELOPER / QA / HR</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <script type="importmap">{
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+    }
+  }</script>
+  <script type="module" src="avatar.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

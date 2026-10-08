@@ -1,10 +1,26 @@
-# Karthickesavan Portfolio — GLB Avatar
+# Karthickesavan Portfolio — Supplied GLB Avatar Edition
 
-A fresh responsive developer portfolio using the supplied `assets/model.glb`.
+This portfolio uses the supplied `assets/model.glb` as the interactive hero avatar.
 
-## Deploy to GitHub Pages
-Upload `index.html` and the `assets` folder (including `model.glb`) to the repository root. The site uses relative asset paths, so it works on a GitHub Pages project URL.
+## Avatar
+- Three.js + GLTFLoader
+- Supplied GLB model
+- Embedded idle animation is played automatically
+- Pointer-responsive head/body attention shift
+- Existing portfolio lighting, HUD and responsive layout preserved
 
-The supplied GLB contains an `IdleV4.2(maya_head)` animation, which is played continuously with Three.js AnimationMixer.
+## Run locally
+Use a local HTTP server because the browser loads the GLB as a module asset.
 
-No build step is required.
+```bash
+python3 -m http.server 5500
+```
+
+Then open `http://localhost:5500`.
+
+## Files
+- `index.html`
+- `style.css`
+- `script.js`
+- `avatar.js`
+- `assets/model.glb`
